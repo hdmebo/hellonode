@@ -1,4 +1,5 @@
 function squareroot(number) {
+   let unused = "hello"
   let lo = 0
   let hi = number
   const delta = 0.1
