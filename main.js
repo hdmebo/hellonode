@@ -1,7 +1,7 @@
 // hello node
 // new commets
 
-console.log(squareroot(9))
+console.log(squareroot(19))
 
 function loop(lo, hi, delta, number) {
    while (hi - lo > delta) {
@@ -22,4 +22,4 @@ function squareroot(number) {
 }
 
 
-console.log(squareroot(9))
+console.log(squareroot(19))
