@@ -1,4 +1,5 @@
 // hello node
+// hello again
 
 console.log(squareroot(9))
 
@@ -20,4 +21,4 @@ function squareroot(number) {
   return hi
 }
 
-
+console.log(squareroot(9))
