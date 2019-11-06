@@ -1,4 +1,5 @@
 // hello node
+// new commets
 
 console.log(squareroot(9))
 
@@ -21,3 +22,4 @@ function squareroot(number) {
 }
 
 
+console.log(squareroot(9))
