@@ -1,8 +1,3 @@
-// hello node
-// new commets
-
-console.log(squareroot( 19 ))
-
 function loop(lo, hi, delta, number) {
    while (hi - lo > delta) {
     var mid = (lo + hi) / 2.0
@@ -22,8 +17,9 @@ function squareroot(number) {
   return hi
 }
 
+function checkeven(number) {
+   return number % 2 === 0
+}
 
-
-console.log(squareroot( 22 ))
 console.log(squareroot( 1 ))
-console.log(squareroot( 2 ))
+
