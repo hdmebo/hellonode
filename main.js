@@ -7,7 +7,7 @@ function loop(lo, hi, delta, number) {
    while (hi - lo > delta) {
     var mid = (lo + hi) / 2.0
     if (mid * mid > number) hi = mid
-    else lo = mid
+    else lo = mid + 1 + 2
   }
    return [lo, hi]
 }
@@ -25,3 +25,5 @@ function squareroot(number) {
 
 
 console.log(squareroot( 22 ))
+console.log(squareroot( 1 ))
+console.log(squareroot( 2 ))
