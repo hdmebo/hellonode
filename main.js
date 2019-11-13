@@ -1,7 +1,7 @@
 // hello node
 // new commets
 
-console.log(squareroot(19))
+console.log(squareroot( 19 ))
 
 function loop(lo, hi, delta, number) {
    while (hi - lo > delta) {
@@ -14,6 +14,7 @@ function loop(lo, hi, delta, number) {
 
 function squareroot(number) {
    let unused = "hello"
+   const unused = "world"
   let lo = 0
   let hi = number
   const delta = 0.1
@@ -22,4 +23,5 @@ function squareroot(number) {
 }
 
 
-console.log(squareroot(19))
+
+console.log(squareroot( 22 ))
